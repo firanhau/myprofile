@@ -10,6 +10,8 @@
     --trang:white;
     --den:rgb(49, 49, 49);
     color: white;
+    font-family: monospace;
+    font-style:bold ;
 }
 
 .divavt{
@@ -43,11 +45,10 @@
     color: var(--trang);
     margin-left:0px;
     margin-top: 0px;
-    font-family: monospace;
 }
 .name{
     height: 90px;
-    font-style:bold ;
+    word-spacing: -30px;
     font-size: 110px;
     margin-bottom: 0px;
 }
@@ -95,12 +96,11 @@
     color: var(--trang);
     margin-top: 50px;
     margin-left: 30px;
-    font-family: monospace;
 }
 .card-content-name{
     height: 90px;
-    font-style:bold ;
     font-size: 90px;
+    word-spacing: -30px;
     margin-bottom: 0px;
 }
 .card-content-title{
@@ -117,8 +117,6 @@
     margin-left: 420px;
 }
 .Loichao{
-    font-style:bold ;
-    font-family: monospace;
     font-size: 100px;
     color: var(--trang);
     text-align: center;
