@@ -4,7 +4,7 @@
     margin: 0;
 }
 .background{
-    width: 1080px;
+    width: 1100px;
     min-height: 100vh;
     background-color: black;
     --trang:white;
@@ -13,7 +13,7 @@
 }
 
 .divavt{
-    width: 1080px;
+    width: 1100px;
     height: 500px;
     background-color: var(--den);
     display: flex;
@@ -61,7 +61,7 @@
     flex-direction:column;
 }
 .cards{
-    width: 1080px;
+    width: 1100px;
     height: 400px;
     background-color: var(--den);
     display: flex;
