@@ -7,12 +7,14 @@
     width: 1100px;
     min-height: 100vh;
     background-color: black;
-    --trang:white;
-    --den:rgb(49, 49, 49);
-    color: white;
-    font-family: monospace;
-    font-style:bold ;
-    letter-spacing: -1px;
+    --trang:white;/*Thay màu chữ */
+    --den:rgb(49, 49, 49);/*Thay màu nền card */
+    --kieuchu: normal;/*Thay kiểu chữ(đậm, thường) */
+    color: var(--trang);
+    font-weight: var(--kieuchu);
+    font-family: 'Itim', cursive;
+    word-spacing: 8px; /*khoảng cách 2 từ */
+    letter-spacing: 2px; /*khoảng cách 2 ký tự */
 }
 
 .divavt{
@@ -21,12 +23,12 @@
     background-color: var(--den);
     display: flex;
     flex-direction: column;
+    
 }
 .avt{
     width: 600px;
     height: 400px;
     display: flex;
-    color: var(--trang);
     margin-top: 50px ;
     margin-left: 50px;
 }
@@ -43,17 +45,17 @@
 .content{
     display: flex;
     flex-direction: column;
-    color: var(--trang);
     margin-left:0px;
     margin-top: 0px;
 }
 .name{
+    font-weight: var(--kieuchu);
     height: 90px;
-    word-spacing: -30px;
     font-size: 110px;
     margin-bottom: 0px;
 }
 .title{
+    font-weight: var(--kieuchu);
     font-size: 50px;
     margin-top: 40px;
 }
@@ -74,10 +76,10 @@
     flex-direction: row;
     width: 1000px;
     height: 300px;
-    color: var(--trang);
     margin-left: 90px;
     margin-top: 60px;
     margin-bottom: 0px;
+    color: var(--trang);
 }
 .gird{
     width: 1000px;
@@ -95,32 +97,31 @@
 .card-content{
     display: flex;
     flex-direction: column;
-    color: var(--trang);
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .card-content-name{
+    font-weight: var(--kieuchu);
     height: 90px;
     font-size: 90px;
-    word-spacing: -30px;
     margin-bottom: 0px;
 }
 .card-content-title{
+    font-weight: var(--kieuchu);
     font-size: 50px;
     margin-top: 30px;
 }
 .footer{
-    font-family: bold;
     display: flex;
     flex-direction: column;
     background-color: var(--den);
-    height: 900px;
-    padding-top: 0px;
+    height: 1000px;
+    margin-top: -30px;
     text-align: center;
-    font-family: monospace;
 }
 .gif{
     width: 180px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,14 +130,13 @@
     margin-right: auto;
     width: 600px;
     font-size: 100px;
-    color: var(--trang);
     margin-bottom: 0px;
 }
 .Loichao-title{
-    word-spacing: -20px;
     font-size: 60px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 650px;
+    word-spacing: 0px;
 }
