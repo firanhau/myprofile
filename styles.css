@@ -16,17 +16,15 @@
     word-spacing: 8px; /*khoảng cách 2 từ */
     letter-spacing: 2px; /*khoảng cách 2 ký tự */
 }
-
 .divavt{
     width: 1100px;
     height: 500px;
     background-color: var(--den);
     display: flex;
     flex-direction: column;
-    
 }
 .avt{
-    width: 600px;
+    width: auto;
     height: 400px;
     display: flex;
     margin-top: 50px ;
@@ -45,19 +43,21 @@
 .content{
     display: flex;
     flex-direction: column;
-    margin-left:0px;
+    margin-left:50px;
     margin-top: 0px;
+    flex: 1;
 }
 .name{
-    font-weight: var(--kieuchu);
-    height: 90px;
+    margin-top: 50px;
     font-size: 110px;
-    margin-bottom: 0px;
+}
+.card-name{
+    margin-top: 30px;
+    font-size: 90px;
 }
 .title{
-    font-weight: var(--kieuchu);
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 .divcards{
     width: auto;
@@ -95,21 +95,11 @@
     margin-top: 0px;
 }
 .card-content{
+    width: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     margin-left: 40px;
-}
-.card-content-name{
-    font-weight: var(--kieuchu);
-    height: 90px;
-    font-size: 90px;
-    margin-bottom: 0px;
-}
-.card-content-title{
-    font-weight: var(--kieuchu);
-    font-size: 50px;
-    margin-top: 30px;
+    flex: 1;
 }
 .footer{
     display: flex;
@@ -118,25 +108,18 @@
     height: 1000px;
     margin-top: -30px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gif{
     width: 180px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.Loichao{
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    font-size: 100px;
-    margin-bottom: 0px;
-}
-.Loichao-title{
-    font-size: 60px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 650px;
-    word-spacing: 0px;
+}
+.note{
+    width: 600px;
+    margin-left: 240px;
+    margin-top: 40px;
+    font-size: 50px;
 }
