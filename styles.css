@@ -9,7 +9,7 @@
     background-color: black;
     --trang:white;/*Thay màu chữ */
     --den:rgb(49, 49, 49);/*Thay màu nền card */
-    --kieuchu: normal;/*Thay kiểu chữ(đậm, thường) */
+    --kieuchu: 300;/*Thay kiểu chữ(đậm, thường) */
     color: var(--trang);
     font-weight: var(--kieuchu);
     font-family: 'Itim', cursive;
@@ -33,8 +33,8 @@
 .image{
     display: block;
     object-fit:cover;
-    width: 400px;
-    height: 400px;
+    width: 390px;
+    height: 390px;
     border-radius: 100rem;
     flex-shrink: 0;
     margin-left:0px;
@@ -43,13 +43,13 @@
 .content{
     display: flex;
     flex-direction: column;
-    margin-left:50px;
+    margin-left:40px;
     margin-top: 0px;
     flex: 1;
 }
 .name{
     margin-top: 50px;
-    font-size: 110px;
+    font-size: 105px;
 }
 .card-name{
     margin-top: 30px;
